@@ -40,6 +40,86 @@ Data Integrity: Rules and constraints ensure accurate and consistent data.
 Databases are more reliable, efficient, and suitable for multi-user environments compared to plain files.
 
 ---
+##  Server vs Database vs Table vs Row
+
+Think of it like **folders inside folders**:
+
+```
+Server
+ ├── Database (company_db)
+ │    ├── Table (employees)
+ │    │    ├── Row (1, Vivek, vivek@gmail.com)
+ │    │    ├── Row (2, Rohit, rohit@gmail.com)
+ │    │    └── Row (3, Priya, priya@gmail.com)
+ │    └── Table (departments)
+ │         ├── Row (1, HR)
+ │         └── Row (2, IT)
+
+```
+---
+
+###  Explanation
+
+* **Server **
+  The main system that manages databases.
+
+* **Database **
+  A collection of related data (e.g., `company_db`).
+
+* **Table **
+  Stores data in structured format (rows & columns).
+
+* **Row **
+  A single record inside a table.
+
+---
+
+##  Example (SQL)
+
+### Create Database
+
+```sql
+CREATE DATABASE company_db;
+```
+
+### Use Database
+
+```sql
+USE company_db;
+```
+
+### Create Table
+
+```sql
+CREATE TABLE employees (
+    id INT,
+    name VARCHAR(50),
+    email VARCHAR(100)
+);
+```
+
+### Insert Data
+
+```sql
+INSERT INTO employees VALUES
+(1, 'Vivek', 'vivek@gmail.com'),
+(2, 'Rohit', 'rohit@gmail.com'),
+(3, 'Priya', 'priya@gmail.com');
+```
+
+### Fetch Data
+
+```sql
+SELECT * FROM employees;
+```
+
+---
+
+##  Summary
+
+* One **Server** → many **Databases**
+* One **Database** → many **Tables**
+* One **Table** → many **Rows**
 
 # SQL Queries
 
