@@ -3,7 +3,7 @@
 ##  Module 4 - Database
 Instructor: Dinesh Rawat
 
-## 🚀 Topics Covered
+##  Topics Covered
 - Why database is better than files
 - MySQL Server & Workbench
 - Creating Database
