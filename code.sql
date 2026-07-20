@@ -1,6 +1,6 @@
 # Day 18 - MySQL, Tables & Joins
 
-## 📚 Module 4 - Database
+##  Module 4 - Database
 Instructor: Dinesh Rawat
 
 ## 🚀 Topics Covered
@@ -12,7 +12,7 @@ Instructor: Dinesh Rawat
 - Foreign Key
 - Joins
 
-## 🧠 SQL Queries
+##  SQL Queries
 
 ### Create Database
 CREATE DATABASE resume_db;
