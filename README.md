@@ -4,7 +4,7 @@
 ##  Module 4 - Database
 Instructor: Dinesh Rawat
 
-##  Topics Covered
+#  Topics Covered
 - Why database is better than files
 - MySQL Server & Workbench
 - Creating Database
@@ -12,8 +12,36 @@ Instructor: Dinesh Rawat
 - Insert & Select
 - Foreign Key
 - Joins
+  
+ ---
+ 
+# Plain Files vs Database
 
-## SQL Queries
+## Limitations of Plain Files
+
+No Concurrency Control: Multiple users editing at the same time can overwrite data, causing data loss.
+
+Slow Searching: Entire file must be scanned, which becomes slow as data grows.
+
+No Structure Enforcement: Can lead to inconsistent or invalid data.
+
+
+## Advantages of Database
+
+Safe Multi-User Access: Uses transactions and locks to prevent data conflicts.
+
+Fast Searching: Indexing makes data retrieval quick and efficient.
+
+Data Integrity: Rules and constraints ensure accurate and consistent data.
+
+
+## Conclusion
+
+Databases are more reliable, efficient, and suitable for multi-user environments compared to plain files.
+
+---
+
+# SQL Queries
 
 ### Create Database
 CREATE DATABASE resume_db;
