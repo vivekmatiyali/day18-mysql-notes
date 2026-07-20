@@ -1,5 +1,4 @@
 
-# day18-mysql-notes
 # Day 18 - MySQL, Tables & Joins
 
 ##  Module 4 - Database
