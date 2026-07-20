@@ -1,3 +1,4 @@
+
 # day18-mysql-notes
 # Day 18 - MySQL, Tables & Joins
 
@@ -37,7 +38,7 @@ CREATE TABLE resumes (
   title VARCHAR(100),
   FOREIGN KEY (userId) REFERENCES users(id)
 );
-
+<img width="1536" height="1024" alt="1000177259" src="https://github.com/user-attachments/assets/7f15373e-e454-4c2e-8f7c-f5da7cbe8388" />
 ### Join Query
 SELECT users.name, resumes.title
 FROM users
